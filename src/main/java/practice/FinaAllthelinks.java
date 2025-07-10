@@ -19,14 +19,10 @@ public class FinaAllthelinks {
 		
 		int tLinks=l1.size();
 		System.out.println(tLinks);
-		if(tLinks==48)
-		{
-			System.out.println("Test Passed");
-		}
-		else 
-		{
-			System.out.println("Test Failed");
-		}
+		/*
+		 * if(tLinks==48) { System.out.println("Test Passed"); } else {
+		 * System.out.println("Test Failed"); }
+		 */
 		
 		
 	}

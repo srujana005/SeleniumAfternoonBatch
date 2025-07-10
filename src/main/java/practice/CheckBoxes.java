@@ -11,8 +11,8 @@ public class CheckBoxes {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://practice.expandtesting.com/checkboxes");
 		WebElement c1 = driver.findElement(By.xpath("//input[@id='checkbox1']"));
-//		System.out.println(c1.isSelected());
-//		c1.click();
+		System.out.println(c1.isSelected());
+		c1.click();
 //		System.out.println(c1.isSelected());
 	   boolean b= c1.isSelected();
 	   if(b!=true)
