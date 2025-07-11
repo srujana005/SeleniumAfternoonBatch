@@ -13,7 +13,9 @@ public class Linktx {
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		
-		driver.findElement(By.linkText("Xpath / Css")).click();
+		//driver.findElement(By.linkText("Xpath / Css")).click();
+		driver.findElement(By.partialLinkText("/ Css")).click();
+		
 		
 
 	}
