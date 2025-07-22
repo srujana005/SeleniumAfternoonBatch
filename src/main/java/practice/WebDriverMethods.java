@@ -10,10 +10,13 @@ public class WebDriverMethods {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		//refresh forward back close 
+		//refresh forward back clo
+		
 		Thread.sleep(5000);
+
 	
     //search a webElement 
+		
 	WebElement ele=driver.findElement(By.id("email"));
 	
 	//Action

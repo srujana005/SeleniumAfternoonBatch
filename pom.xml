@@ -1,7 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+<<<<<<< HEAD
   <groupId>Afternoonseln</groupId>
   <artifactId>Afternoonseln</artifactId>
+=======
+  <groupId>Afternoonsel</groupId>
+  <artifactId>Afternoonsel</artifactId>
+>>>>>>> 0f2bfa48164ac8063c0243e3054164de6c66a787
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
 		<!--

@@ -13,7 +13,7 @@ public class Basics {
 			driver.get("https://www.google.com");
 			driver.manage().window().maximize();
 			Thread.sleep(3000);
-			driver.manage().window().minimize();
+			//driver.manage().window().minimize();
 			Thread.sleep(5000);
 			driver.navigate().refresh();
 			driver.navigate().back();
